@@ -171,10 +171,6 @@ nav{
   font-weight: bold;
 }
 
-/* .blog-card{
-  float: left;
-} */
-
 .blog-cards{
   display: flex;
   flex-direction: row;
@@ -336,4 +332,128 @@ button {
 .footer-logos{
   margin-top: 50px;
   margin-left: 20px;
+}
+
+
+@media screen and (max-width: 620px){
+
+  header{
+    height: 300px
+  }
+
+  nav{
+    display: none;
+  }
+
+  .logo{
+    width: 20%;
+    margin: 20px;
+  }
+
+  .header-text>img{
+    display: none;
+  }
+
+  .header-image{
+    width: 100%;
+    float: left;
+  }
+
+  .companies{
+    margin: 0;
+  }
+
+  .company-items{
+    margin-left: 50px;
+  }
+
+  .api-heading{
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-style: bold;
+  }
+
+  .cards{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+
+  .card{
+    width: 50%;
+    height: 250px;
+    background-color: transparent;
+  }
+
+  .card-active{
+    width: 50%;
+    height: 250px;
+    margin-top: 30px;
+  }
+
+  .blog-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    
+  }
+
+  .blog-card{
+    height: 288px;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .faq-image{
+    display: none;
+  }
+
+  .download-section{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* .download-content{
+ 
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  .download-email{
+ 
+    margin-right: 150px;
+    margin-top: 80px;
+  } */
+
+  .download-content h1{
+    font-size: 200%;
+  }
+  .download-content span{
+    font-size: 50%;
+  }
+
+  form {
+    display:flex;
+    flex-direction:row;
+    height: 40px;
+    border:2px solid grey;
+    border-radius: 22px;
+    padding:2px;
+    background-color: #E9EDFF;
+  }
+
+  input{
+    flex-grow: 2;
+    width: 300px;
+  }
+
+  button {
+    width: 80px;
+    color:white;
+    border-radius: 25px;
+    border-width: 1px;
+    background-color: #5A31FC;
+  }
+
 }
