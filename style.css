@@ -415,22 +415,29 @@ button {
     grid-template-columns: 1fr;
   }
 
-  /* .download-content{
- 
-    margin-left: 40px;
-    margin-top: 50px;
+  .faq-content button{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 25px;
   }
-  .download-email{
- 
-    margin-right: 150px;
-    margin-top: 80px;
-  } */
 
   .download-content h1{
     font-size: 200%;
+    margin-top: 0px;
+    margin-right: 90px;
   }
   .download-content span{
     font-size: 50%;
+  }
+
+  .download-email{
+    float: none;
+    margin: 0px;
+    padding-left: 0px;
+    margin-left: 60px;
+    padding-bottom: 0px;
   }
 
   form {
@@ -454,6 +461,20 @@ button {
     border-radius: 25px;
     border-width: 1px;
     background-color: #5A31FC;
+  }
+
+  .footer-logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+
+  .footer-right{
+    margin-top: 0px;
+  }
+
+  .logos-list{
+    display: none;
   }
 
 }
